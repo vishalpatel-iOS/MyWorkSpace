@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD30FC1229AA39E0007A55F2 /* SepiaPetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30FC1129AA39E0007A55F2 /* SepiaPetsApp.swift */; };
+		CD30FC1429AA39E0007A55F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30FC1329AA39E0007A55F2 /* ContentView.swift */; };
+		CD30FC1629AA39E1007A55F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD30FC1529AA39E1007A55F2 /* Assets.xcassets */; };
+		CD30FC1929AA39E1007A55F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD30FC1829AA39E1007A55F2 /* Preview Assets.xcassets */; };
+		CD30FC2329AA39E1007A55F2 /* SepiaPetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30FC2229AA39E1007A55F2 /* SepiaPetsTests.swift */; };
+		CD30FC2D29AA39E1007A55F2 /* SepiaPetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30FC2C29AA39E1007A55F2 /* SepiaPetsUITests.swift */; };
+		CD30FC2F29AA39E1007A55F2 /* SepiaPetsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30FC2E29AA39E1007A55F2 /* SepiaPetsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD30FC1F29AA39E1007A55F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD30FC0629AA39E0007A55F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD30FC0D29AA39E0007A55F2;
+			remoteInfo = SepiaPets;
+		};
+		CD30FC2929AA39E1007A55F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD30FC0629AA39E0007A55F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD30FC0D29AA39E0007A55F2;
+			remoteInfo = SepiaPets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD30FC0E29AA39E0007A55F2 /* SepiaPets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SepiaPets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD30FC1129AA39E0007A55F2 /* SepiaPetsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepiaPetsApp.swift; sourceTree = "<group>"; };
+		CD30FC1329AA39E0007A55F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CD30FC1529AA39E1007A55F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD30FC1829AA39E1007A55F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD30FC1E29AA39E1007A55F2 /* SepiaPetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SepiaPetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD30FC2229AA39E1007A55F2 /* SepiaPetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepiaPetsTests.swift; sourceTree = "<group>"; };
+		CD30FC2829AA39E1007A55F2 /* SepiaPetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SepiaPetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD30FC2C29AA39E1007A55F2 /* SepiaPetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepiaPetsUITests.swift; sourceTree = "<group>"; };
+		CD30FC2E29AA39E1007A55F2 /* SepiaPetsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepiaPetsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD30FC0B29AA39E0007A55F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD30FC1B29AA39E1007A55F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD30FC2529AA39E1007A55F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD30FC0529AA39E0007A55F2 = {
+			isa = PBXGroup;
+			children = (
+				CD30FC1029AA39E0007A55F2 /* SepiaPets */,
+				CD30FC2129AA39E1007A55F2 /* SepiaPetsTests */,
+				CD30FC2B29AA39E1007A55F2 /* SepiaPetsUITests */,
+				CD30FC0F29AA39E0007A55F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD30FC0F29AA39E0007A55F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD30FC0E29AA39E0007A55F2 /* SepiaPets.app */,
+				CD30FC1E29AA39E1007A55F2 /* SepiaPetsTests.xctest */,
+				CD30FC2829AA39E1007A55F2 /* SepiaPetsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD30FC1029AA39E0007A55F2 /* SepiaPets */ = {
+			isa = PBXGroup;
+			children = (
+				CD30FC1129AA39E0007A55F2 /* SepiaPetsApp.swift */,
+				CD30FC1329AA39E0007A55F2 /* ContentView.swift */,
+				CD30FC1529AA39E1007A55F2 /* Assets.xcassets */,
+				CD30FC1729AA39E1007A55F2 /* Preview Content */,
+			);
+			path = SepiaPets;
+			sourceTree = "<group>";
+		};
+		CD30FC1729AA39E1007A55F2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CD30FC1829AA39E1007A55F2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CD30FC2129AA39E1007A55F2 /* SepiaPetsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD30FC2229AA39E1007A55F2 /* SepiaPetsTests.swift */,
+			);
+			path = SepiaPetsTests;
+			sourceTree = "<group>";
+		};
+		CD30FC2B29AA39E1007A55F2 /* SepiaPetsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD30FC2C29AA39E1007A55F2 /* SepiaPetsUITests.swift */,
+				CD30FC2E29AA39E1007A55F2 /* SepiaPetsUITestsLaunchTests.swift */,
+			);
+			path = SepiaPetsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD30FC0D29AA39E0007A55F2 /* SepiaPets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD30FC3229AA39E1007A55F2 /* Build configuration list for PBXNativeTarget "SepiaPets" */;
+			buildPhases = (
+				CD30FC0A29AA39E0007A55F2 /* Sources */,
+				CD30FC0B29AA39E0007A55F2 /* Frameworks */,
+				CD30FC0C29AA39E0007A55F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SepiaPets;
+			productName = SepiaPets;
+			productReference = CD30FC0E29AA39E0007A55F2 /* SepiaPets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD30FC1D29AA39E1007A55F2 /* SepiaPetsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD30FC3529AA39E1007A55F2 /* Build configuration list for PBXNativeTarget "SepiaPetsTests" */;
+			buildPhases = (
+				CD30FC1A29AA39E1007A55F2 /* Sources */,
+				CD30FC1B29AA39E1007A55F2 /* Frameworks */,
+				CD30FC1C29AA39E1007A55F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD30FC2029AA39E1007A55F2 /* PBXTargetDependency */,
+			);
+			name = SepiaPetsTests;
+			productName = SepiaPetsTests;
+			productReference = CD30FC1E29AA39E1007A55F2 /* SepiaPetsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD30FC2729AA39E1007A55F2 /* SepiaPetsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD30FC3829AA39E1007A55F2 /* Build configuration list for PBXNativeTarget "SepiaPetsUITests" */;
+			buildPhases = (
+				CD30FC2429AA39E1007A55F2 /* Sources */,
+				CD30FC2529AA39E1007A55F2 /* Frameworks */,
+				CD30FC2629AA39E1007A55F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD30FC2A29AA39E1007A55F2 /* PBXTargetDependency */,
+			);
+			name = SepiaPetsUITests;
+			productName = SepiaPetsUITests;
+			productReference = CD30FC2829AA39E1007A55F2 /* SepiaPetsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD30FC0629AA39E0007A55F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					CD30FC0D29AA39E0007A55F2 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					CD30FC1D29AA39E1007A55F2 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = CD30FC0D29AA39E0007A55F2;
+					};
+					CD30FC2729AA39E1007A55F2 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = CD30FC0D29AA39E0007A55F2;
+					};
+				};
+			};
+			buildConfigurationList = CD30FC0929AA39E0007A55F2 /* Build configuration list for PBXProject "SepiaPets" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD30FC0529AA39E0007A55F2;
+			productRefGroup = CD30FC0F29AA39E0007A55F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD30FC0D29AA39E0007A55F2 /* SepiaPets */,
+				CD30FC1D29AA39E1007A55F2 /* SepiaPetsTests */,
+				CD30FC2729AA39E1007A55F2 /* SepiaPetsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD30FC0C29AA39E0007A55F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD30FC1929AA39E1007A55F2 /* Preview Assets.xcassets in Resources */,
+				CD30FC1629AA39E1007A55F2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD30FC1C29AA39E1007A55F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD30FC2629AA39E1007A55F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD30FC0A29AA39E0007A55F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD30FC1429AA39E0007A55F2 /* ContentView.swift in Sources */,
+				CD30FC1229AA39E0007A55F2 /* SepiaPetsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD30FC1A29AA39E1007A55F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD30FC2329AA39E1007A55F2 /* SepiaPetsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD30FC2429AA39E1007A55F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD30FC2D29AA39E1007A55F2 /* SepiaPetsUITests.swift in Sources */,
+				CD30FC2F29AA39E1007A55F2 /* SepiaPetsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD30FC2029AA39E1007A55F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD30FC0D29AA39E0007A55F2 /* SepiaPets */;
+			targetProxy = CD30FC1F29AA39E1007A55F2 /* PBXContainerItemProxy */;
+		};
+		CD30FC2A29AA39E1007A55F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD30FC0D29AA39E0007A55F2 /* SepiaPets */;
+			targetProxy = CD30FC2929AA39E1007A55F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CD30FC3029AA39E1007A55F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD30FC3129AA39E1007A55F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD30FC3329AA39E1007A55F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SepiaPets/Preview Content\"";
+				DEVELOPMENT_TEAM = X484DX6C73;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vishal.SepiaPets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD30FC3429AA39E1007A55F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SepiaPets/Preview Content\"";
+				DEVELOPMENT_TEAM = X484DX6C73;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vishal.SepiaPets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD30FC3629AA39E1007A55F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X484DX6C73;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vishal.SepiaPetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SepiaPets.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SepiaPets";
+			};
+			name = Debug;
+		};
+		CD30FC3729AA39E1007A55F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X484DX6C73;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vishal.SepiaPetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SepiaPets.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SepiaPets";
+			};
+			name = Release;
+		};
+		CD30FC3929AA39E1007A55F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X484DX6C73;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vishal.SepiaPetsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SepiaPets;
+			};
+			name = Debug;
+		};
+		CD30FC3A29AA39E1007A55F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X484DX6C73;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vishal.SepiaPetsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SepiaPets;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD30FC0929AA39E0007A55F2 /* Build configuration list for PBXProject "SepiaPets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD30FC3029AA39E1007A55F2 /* Debug */,
+				CD30FC3129AA39E1007A55F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD30FC3229AA39E1007A55F2 /* Build configuration list for PBXNativeTarget "SepiaPets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD30FC3329AA39E1007A55F2 /* Debug */,
+				CD30FC3429AA39E1007A55F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD30FC3529AA39E1007A55F2 /* Build configuration list for PBXNativeTarget "SepiaPetsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD30FC3629AA39E1007A55F2 /* Debug */,
+				CD30FC3729AA39E1007A55F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD30FC3829AA39E1007A55F2 /* Build configuration list for PBXNativeTarget "SepiaPetsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD30FC3929AA39E1007A55F2 /* Debug */,
+				CD30FC3A29AA39E1007A55F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD30FC0629AA39E0007A55F2 /* Project object */;
+}
