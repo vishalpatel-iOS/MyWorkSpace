@@ -76,7 +76,7 @@ extension StartUpVC {
                             let splitSTArr = onlyHoursST.components(separatedBy: " - ")
                             if splitSTArr.count == 2 {
                                 self.startWorkingTime = splitSTArr.first ?? ""
-                                self.endWorkingTime = splitSTArr.last ?? ""
+                                self.endWorkingTime = "23:00"//splitSTArr.last ?? ""
                             }
                         }
                     }
@@ -93,10 +93,11 @@ extension StartUpVC {
                 let str = try String(contentsOfFile: path, encoding: .utf8)
                 if let dict = try JSONSerialization.jsonObject(with: str.data(using: .utf8)!, options: .allowFragments) as? [String:Any] {
                     if let dataDict = dict["pets"] as? [[String:Any]] {
+                        self.petListDataArr.removeAll()
                         for petDetail in dataDict{
                             if let image_url = petDetail["image_url"] as? String, let title = petDetail["title"] as? String, let content_url = petDetail["content_url"] as? String, let date_added = petDetail["date_added"] as? String {
                                 let petModel = PetDetailModel(image_url: image_url,title: title,content_url: content_url,date_added: date_added)
-                                petListDataArr.append(petModel)
+                                self.petListDataArr.append(petModel)
                             }
                         }
                     }
@@ -113,10 +114,10 @@ extension StartUpVC {
             return false
         }
         
-        if Date().weekday == 1 || Date().weekday == 7 {
-            return false
-        }
-        
+//        if Date().weekday == 1 || Date().weekday == 7 {
+//            return false
+//        }
+//
         return DateInterval(start: start, end: end).contains(Date())
     }
 }
