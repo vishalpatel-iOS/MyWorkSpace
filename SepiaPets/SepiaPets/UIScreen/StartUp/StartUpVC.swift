@@ -36,7 +36,7 @@ struct StartUpVC_Previews: PreviewProvider {
 // MARK : COMPONENTS
 extension StartUpVC {
     private var btnPetsList: some View {
-        NavigationLink(destination: PetsListVC(),
+        NavigationLink(destination: PetsListVC(petListDataArr: petListDataArr),
                        isActive: $isPetsListClick) {
             Text("Pets List")
                 .font(.largeTitle)
@@ -76,7 +76,7 @@ extension StartUpVC {
                             let splitSTArr = onlyHoursST.components(separatedBy: " - ")
                             if splitSTArr.count == 2 {
                                 self.startWorkingTime = splitSTArr.first ?? ""
-                                self.endWorkingTime = "12:00"//splitSTArr.last ?? ""
+                                self.endWorkingTime = splitSTArr.last ?? ""
                             }
                         }
                     }

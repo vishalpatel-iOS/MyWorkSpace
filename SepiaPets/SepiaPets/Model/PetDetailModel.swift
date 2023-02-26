@@ -7,8 +7,8 @@
 
 import Foundation
 
-class PetDetailModel : Codable {
-    
+class PetDetailModel : Codable, Identifiable {
+   
     var image_url: String?
     var title: String?
     var content_url: String?

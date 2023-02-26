@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 extension Formatter {
     static let today: DateFormatter = {
@@ -16,4 +17,20 @@ extension Formatter {
         return dateFormatter
         
     }()
+}
+
+extension Image {
+    func imageModifire() -> some View {
+        self
+            .resizable()
+            .scaledToFill()
+    }
+    
+    func iconModifire() -> some View {
+        self
+            .imageModifire()
+            .frame(maxWidth: 120)
+            .foregroundColor(.purple)
+            .opacity(0.5)
+    }
 }
