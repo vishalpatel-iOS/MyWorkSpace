@@ -19,6 +19,7 @@
 		CD5AC6B329AB2FEF00F0D788 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = CD5AC6B129AB2FEF00F0D788 /* config.json */; };
 		CD5AC6B429AB2FEF00F0D788 /* pets_list.json in Resources */ = {isa = PBXBuildFile; fileRef = CD5AC6B229AB2FEF00F0D788 /* pets_list.json */; };
 		CD5AC6B629AB332700F0D788 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5AC6B529AB332700F0D788 /* Extensions.swift */; };
+		CD7BFE2329AB4F77009203B4 /* PetRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7BFE2229AB4F77009203B4 /* PetRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		CD5AC6B129AB2FEF00F0D788 /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
 		CD5AC6B229AB2FEF00F0D788 /* pets_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pets_list.json; sourceTree = "<group>"; };
 		CD5AC6B529AB332700F0D788 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CD7BFE2229AB4F77009203B4 /* PetRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				CD5AC6AC29AB2F0000F0D788 /* PetsListVC.swift */,
+				CD7BFE2129AB4F68009203B4 /* SubViews */,
 			);
 			path = "Pets List";
 			sourceTree = "<group>";
@@ -188,6 +191,14 @@
 				CD5AC6AF29AB2FBA00F0D788 /* PetDetailModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		CD7BFE2129AB4F68009203B4 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				CD7BFE2229AB4F77009203B4 /* PetRowView.swift */,
+			);
+			path = SubViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,6 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD5AC6B629AB332700F0D788 /* Extensions.swift in Sources */,
+				CD7BFE2329AB4F77009203B4 /* PetRowView.swift in Sources */,
 				CD5AC6B029AB2FBA00F0D788 /* PetDetailModel.swift in Sources */,
 				CD5AC6AD29AB2F0000F0D788 /* PetsListVC.swift in Sources */,
 				CD5AC6AA29AB2ED600F0D788 /* StartUpVC.swift in Sources */,

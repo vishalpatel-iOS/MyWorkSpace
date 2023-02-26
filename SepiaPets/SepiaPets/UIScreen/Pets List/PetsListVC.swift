@@ -9,22 +9,29 @@ import SwiftUI
 
 struct PetsListVC: View {
     var petListDataArr : [PetDetailModel] = [PetDetailModel]()
+    @State var isPetSelected : Bool = false
     
     var body: some View {
-        if petListDataArr.count > 0 {
-            List {
-                ForEach(petListDataArr) { pet in
-                    PetRowView(pet: pet)
-                        .padding(.horizontal)
-                        .padding(.vertical,5)
+        ZStack{
+            if petListDataArr.count > 0 {
+                List {
+                    ForEach(petListDataArr) { pet in
+                        PetRowView(pet: pet)
+                            .padding(.horizontal,8)
+                            .padding(.vertical,5)
+                            .onTapGesture {
+                                self.isPetSelected = true
+                            }
+                    }
                 }
+            }else{
+                Text("No pets list available!")
+                    .foregroundColor(.black)
+                    .font(.title)
+                    .bold()
             }
-        }else{
-            Text("No pets details available!")
-                .foregroundColor(.black)
-                .font(.title)
-                .bold()
-        }
+        }//: ZSTACK
+        .navigationBarTitle("Pets List", displayMode: .inline)
     }
 }
 
@@ -34,27 +41,3 @@ struct PetsListVC_Previews: PreviewProvider {
     }
 }
 
-struct PetRowView: View {
-    var pet: PetDetailModel
-
-    var body: some View {
-        HStack(spacing: 10){
-            AsyncImage(url: URL(string: pet.image_url ?? ""), transaction:  Transaction(animation: .spring(response: 0.5, dampingFraction: 0.6, blendDuration: 0.25))) { phase in
-                if let image = phase.image{
-                    image.imageModifire()
-                        .transition(.scale)
-                }else if phase.error != nil {
-                    Image(systemName: "ant.circle.fill").iconModifire()
-                }else{
-                    Image(systemName: "photo.circle.fill").iconModifire()
-                }
-            }//: ASYNCIMAGE
-            .frame(width: 60,height: 60)
-            .cornerRadius(30)
-            
-            Text(pet.title ?? "")
-                .foregroundColor(.primary)
-                .font(.headline)
-        }
-    }
-}
