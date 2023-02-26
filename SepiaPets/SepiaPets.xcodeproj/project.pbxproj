@@ -20,6 +20,9 @@
 		CD5AC6B429AB2FEF00F0D788 /* pets_list.json in Resources */ = {isa = PBXBuildFile; fileRef = CD5AC6B229AB2FEF00F0D788 /* pets_list.json */; };
 		CD5AC6B629AB332700F0D788 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5AC6B529AB332700F0D788 /* Extensions.swift */; };
 		CD7BFE2329AB4F77009203B4 /* PetRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7BFE2229AB4F77009203B4 /* PetRowView.swift */; };
+		CD7BFE2729AB51E7009203B4 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7BFE2529AB51E7009203B4 /* ActivityIndicator.swift */; };
+		CD7BFE2829AB51E7009203B4 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7BFE2629AB51E7009203B4 /* WebView.swift */; };
+		CD7BFE2B29AB5212009203B4 /* PetDetailsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7BFE2A29AB5212009203B4 /* PetDetailsSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,9 @@
 		CD5AC6B229AB2FEF00F0D788 /* pets_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pets_list.json; sourceTree = "<group>"; };
 		CD5AC6B529AB332700F0D788 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		CD7BFE2229AB4F77009203B4 /* PetRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetRowView.swift; sourceTree = "<group>"; };
+		CD7BFE2529AB51E7009203B4 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		CD7BFE2629AB51E7009203B4 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		CD7BFE2A29AB5212009203B4 /* PetDetailsSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetDetailsSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,7 @@
 				CD30FC1529AA39E1007A55F2 /* Assets.xcassets */,
 				CD5AC6A729AB2E9500F0D788 /* Resources */,
 				CD5AC6A629AB2E8300F0D788 /* Extension */,
+				CD7BFE2429AB51E7009203B4 /* UIViewRepresentable Componant */,
 				CD5AC6AE29AB2F9E00F0D788 /* Model */,
 				CD5AC6A529AB2E6400F0D788 /* UIScreen */,
 				CD30FC1729AA39E1007A55F2 /* Preview Content */,
@@ -197,8 +204,26 @@
 			isa = PBXGroup;
 			children = (
 				CD7BFE2229AB4F77009203B4 /* PetRowView.swift */,
+				CD7BFE2929AB5212009203B4 /* PetDetails */,
 			);
 			path = SubViews;
+			sourceTree = "<group>";
+		};
+		CD7BFE2429AB51E7009203B4 /* UIViewRepresentable Componant */ = {
+			isa = PBXGroup;
+			children = (
+				CD7BFE2529AB51E7009203B4 /* ActivityIndicator.swift */,
+				CD7BFE2629AB51E7009203B4 /* WebView.swift */,
+			);
+			path = "UIViewRepresentable Componant";
+			sourceTree = "<group>";
+		};
+		CD7BFE2929AB5212009203B4 /* PetDetails */ = {
+			isa = PBXGroup;
+			children = (
+				CD7BFE2A29AB5212009203B4 /* PetDetailsSheet.swift */,
+			);
+			path = PetDetails;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,9 +359,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD5AC6B629AB332700F0D788 /* Extensions.swift in Sources */,
+				CD7BFE2829AB51E7009203B4 /* WebView.swift in Sources */,
 				CD7BFE2329AB4F77009203B4 /* PetRowView.swift in Sources */,
 				CD5AC6B029AB2FBA00F0D788 /* PetDetailModel.swift in Sources */,
+				CD7BFE2B29AB5212009203B4 /* PetDetailsSheet.swift in Sources */,
 				CD5AC6AD29AB2F0000F0D788 /* PetsListVC.swift in Sources */,
+				CD7BFE2729AB51E7009203B4 /* ActivityIndicator.swift in Sources */,
 				CD5AC6AA29AB2ED600F0D788 /* StartUpVC.swift in Sources */,
 				CD30FC1229AA39E0007A55F2 /* SepiaPetsApp.swift in Sources */,
 			);
