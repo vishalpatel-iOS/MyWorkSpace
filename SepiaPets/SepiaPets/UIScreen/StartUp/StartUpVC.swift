@@ -112,6 +112,11 @@ extension StartUpVC {
               let end = Formatter.today.date(from: endTime) else {
             return false
         }
+        
+        if Date().weekday == 1 || Date().weekday == 7 {
+            return false
+        }
+        
         return DateInterval(start: start, end: end).contains(Date())
     }
 }

@@ -8,6 +8,14 @@
 import Foundation
 import SwiftUI
 
+extension Date {
+    var calendar: Calendar { Calendar.current }
+
+    var weekday: Int {
+        (calendar.component(.weekday, from: self) - calendar.firstWeekday + 7) % 7 + 1
+    }
+}
+
 extension Formatter {
     static let today: DateFormatter = {
         let dateFormatter = DateFormatter()
