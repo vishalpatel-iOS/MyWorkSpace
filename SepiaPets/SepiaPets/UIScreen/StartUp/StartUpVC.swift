@@ -76,7 +76,7 @@ extension StartUpVC {
                             let splitSTArr = onlyHoursST.components(separatedBy: " - ")
                             if splitSTArr.count == 2 {
                                 self.startWorkingTime = splitSTArr.first ?? ""
-                                self.endWorkingTime = "12:00"//splitSTArr.last ?? ""
+                                self.endWorkingTime = splitSTArr.last ?? ""
                             }
                         }
                     }
@@ -112,6 +112,11 @@ extension StartUpVC {
               let end = Formatter.today.date(from: endTime) else {
             return false
         }
+        
+        if Date().weekday == 1 || Date().weekday == 7 {
+            return false
+        }
+        
         return DateInterval(start: start, end: end).contains(Date())
     }
 }
