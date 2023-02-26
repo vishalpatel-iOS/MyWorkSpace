@@ -11,7 +11,12 @@ import SwiftUI
 struct SepiaPetsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView{
+                StartUpVC()
+            }
+            .navigationViewStyle(StackNavigationViewStyle())
+            .navigationBarHidden(true)
+            .navigationBarTitleDisplayMode(.inline)
         }
     }
 }

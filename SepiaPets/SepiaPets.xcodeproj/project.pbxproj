@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		CD30FC1229AA39E0007A55F2 /* SepiaPetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30FC1129AA39E0007A55F2 /* SepiaPetsApp.swift */; };
-		CD30FC1429AA39E0007A55F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30FC1329AA39E0007A55F2 /* ContentView.swift */; };
 		CD30FC1629AA39E1007A55F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD30FC1529AA39E1007A55F2 /* Assets.xcassets */; };
 		CD30FC1929AA39E1007A55F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD30FC1829AA39E1007A55F2 /* Preview Assets.xcassets */; };
 		CD30FC2329AA39E1007A55F2 /* SepiaPetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30FC2229AA39E1007A55F2 /* SepiaPetsTests.swift */; };
 		CD30FC2D29AA39E1007A55F2 /* SepiaPetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30FC2C29AA39E1007A55F2 /* SepiaPetsUITests.swift */; };
 		CD30FC2F29AA39E1007A55F2 /* SepiaPetsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30FC2E29AA39E1007A55F2 /* SepiaPetsUITestsLaunchTests.swift */; };
+		CD5AC6AA29AB2ED600F0D788 /* StartUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5AC6A929AB2ED600F0D788 /* StartUpVC.swift */; };
+		CD5AC6AD29AB2F0000F0D788 /* PetsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5AC6AC29AB2F0000F0D788 /* PetsListVC.swift */; };
+		CD5AC6B029AB2FBA00F0D788 /* PetDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5AC6AF29AB2FBA00F0D788 /* PetDetailModel.swift */; };
+		CD5AC6B329AB2FEF00F0D788 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = CD5AC6B129AB2FEF00F0D788 /* config.json */; };
+		CD5AC6B429AB2FEF00F0D788 /* pets_list.json in Resources */ = {isa = PBXBuildFile; fileRef = CD5AC6B229AB2FEF00F0D788 /* pets_list.json */; };
+		CD5AC6B629AB332700F0D788 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5AC6B529AB332700F0D788 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,6 @@
 /* Begin PBXFileReference section */
 		CD30FC0E29AA39E0007A55F2 /* SepiaPets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SepiaPets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD30FC1129AA39E0007A55F2 /* SepiaPetsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepiaPetsApp.swift; sourceTree = "<group>"; };
-		CD30FC1329AA39E0007A55F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CD30FC1529AA39E1007A55F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD30FC1829AA39E1007A55F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CD30FC1E29AA39E1007A55F2 /* SepiaPetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SepiaPetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,12 @@
 		CD30FC2829AA39E1007A55F2 /* SepiaPetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SepiaPetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD30FC2C29AA39E1007A55F2 /* SepiaPetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepiaPetsUITests.swift; sourceTree = "<group>"; };
 		CD30FC2E29AA39E1007A55F2 /* SepiaPetsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepiaPetsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CD5AC6A929AB2ED600F0D788 /* StartUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartUpVC.swift; sourceTree = "<group>"; };
+		CD5AC6AC29AB2F0000F0D788 /* PetsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsListVC.swift; sourceTree = "<group>"; };
+		CD5AC6AF29AB2FBA00F0D788 /* PetDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDetailModel.swift; sourceTree = "<group>"; };
+		CD5AC6B129AB2FEF00F0D788 /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
+		CD5AC6B229AB2FEF00F0D788 /* pets_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pets_list.json; sourceTree = "<group>"; };
+		CD5AC6B529AB332700F0D788 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +105,11 @@
 			isa = PBXGroup;
 			children = (
 				CD30FC1129AA39E0007A55F2 /* SepiaPetsApp.swift */,
-				CD30FC1329AA39E0007A55F2 /* ContentView.swift */,
 				CD30FC1529AA39E1007A55F2 /* Assets.xcassets */,
+				CD5AC6A729AB2E9500F0D788 /* Resources */,
+				CD5AC6A629AB2E8300F0D788 /* Extension */,
+				CD5AC6AE29AB2F9E00F0D788 /* Model */,
+				CD5AC6A529AB2E6400F0D788 /* UIScreen */,
 				CD30FC1729AA39E1007A55F2 /* Preview Content */,
 			);
 			path = SepiaPets;
@@ -125,6 +138,56 @@
 				CD30FC2E29AA39E1007A55F2 /* SepiaPetsUITestsLaunchTests.swift */,
 			);
 			path = SepiaPetsUITests;
+			sourceTree = "<group>";
+		};
+		CD5AC6A529AB2E6400F0D788 /* UIScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CD5AC6A829AB2EC400F0D788 /* StartUp */,
+				CD5AC6AB29AB2EE800F0D788 /* Pets List */,
+			);
+			path = UIScreen;
+			sourceTree = "<group>";
+		};
+		CD5AC6A629AB2E8300F0D788 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CD5AC6B529AB332700F0D788 /* Extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CD5AC6A729AB2E9500F0D788 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CD5AC6B129AB2FEF00F0D788 /* config.json */,
+				CD5AC6B229AB2FEF00F0D788 /* pets_list.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CD5AC6A829AB2EC400F0D788 /* StartUp */ = {
+			isa = PBXGroup;
+			children = (
+				CD5AC6A929AB2ED600F0D788 /* StartUpVC.swift */,
+			);
+			path = StartUp;
+			sourceTree = "<group>";
+		};
+		CD5AC6AB29AB2EE800F0D788 /* Pets List */ = {
+			isa = PBXGroup;
+			children = (
+				CD5AC6AC29AB2F0000F0D788 /* PetsListVC.swift */,
+			);
+			path = "Pets List";
+			sourceTree = "<group>";
+		};
+		CD5AC6AE29AB2F9E00F0D788 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD5AC6AF29AB2FBA00F0D788 /* PetDetailModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +295,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD30FC1929AA39E1007A55F2 /* Preview Assets.xcassets in Resources */,
+				CD5AC6B429AB2FEF00F0D788 /* pets_list.json in Resources */,
 				CD30FC1629AA39E1007A55F2 /* Assets.xcassets in Resources */,
+				CD5AC6B329AB2FEF00F0D788 /* config.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +322,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD30FC1429AA39E0007A55F2 /* ContentView.swift in Sources */,
+				CD5AC6B629AB332700F0D788 /* Extensions.swift in Sources */,
+				CD5AC6B029AB2FBA00F0D788 /* PetDetailModel.swift in Sources */,
+				CD5AC6AD29AB2F0000F0D788 /* PetsListVC.swift in Sources */,
+				CD5AC6AA29AB2ED600F0D788 /* StartUpVC.swift in Sources */,
 				CD30FC1229AA39E0007A55F2 /* SepiaPetsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +493,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,6 +523,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
